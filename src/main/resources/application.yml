@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: springboot-security-learning
+
+# used by default when no custom security filter is added.
+  security:
+    user:
+      name: manish
+      password: pass123
+    oauth2:
+      client:
+        registration:
+          github:
+            clientId: Ov23li1EV06GbGVlPGKf
+            clientSecret: 9703a604cfce46b70c50693fcfea934f941db85d
+          google:
+            client-id: 756869491697-gn3vg705hg6uq9dvl02jc2j92pt81kq7.apps.googleusercontent.com
+            client-secret: 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
